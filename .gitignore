@@ -1,0 +1,30 @@
+src/*.exe
+src/kimdotcoin
+src/kimdotcoind
+src/test_kimdotcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.kimdotcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+kimdotcoin-qt
+Kimdotcoin-Qt.app
+
+# Unit-tests
+kimdotcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
